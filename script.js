@@ -1,8 +1,13 @@
 var nr1 = Number(prompt("Introduceti primul numar:"));
 var nr2 = Number(prompt("Introduceti al doilea numar:"));
 var nr3 = Number(prompt("Introduceti al treilea numar:"));
-var alege = Number(prompt("Alegeti un numar de la 1 la 4:"));
 
+/*console.log("Alege 1 pentru adunare");
+console.log("Alege 2 pentru a afla cel mai mare numar");
+console.log("Alege 3 pentru adunarea primului numar cu al treilea numar");
+console.log("Alege 4 pentru afisarea unui array cu cele trei numere");*/
+
+var alege = Number(prompt("Alege 1 pentru adunare; Alege 2 pentru a afla cel mai mare numar; Alege 3 pentru adunarea primului numar cu al treilea numar; Alege 4 pentru afisarea unui array cu cele trei numere."));
 
 switch (alege){
     case 1:{
